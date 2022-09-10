@@ -1,0 +1,26 @@
+#header{
+    height: 559px;
+}
+#nav-bar{
+    height: 53px;
+}
+#sobre{
+    height: 532px;
+    background-color: aquamarine;
+}
+#mt{
+    height: 1107px;
+    background-color: blueviolet;
+}
+#faculdade{
+    height: 1753px;
+    background-color: brown;
+}
+#pos{
+    height: 2477px;
+    background-color: rgb(133, 96, 47);
+}
+#footer{
+    height: 163px;
+    padding-bottom: 0px;
+}
