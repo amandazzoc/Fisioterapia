@@ -1,8 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 #header{
     height: 559px;
 }
 #nav-bar{
     height: 53px;
+    align-items: center;
+    background-color: white;
+}
+/*mudar cor*/
+a.dropdown-item{
+    font-family: 'Fredoka One';
+    color: #859FE2;
+}
+/*continuar a mesma cor quando passar o mouse*/
+a.dropdown-item:hover{
+    font-family: 'Fredoka One';
+    color: #859FE2;
+}
+/*continuar a mesma cor quando clicar*/
+a.dropdown-item:focus{
+    font-family: 'Fredoka One';
+    color: #859FE2;
+    background-color: white;
+}
+/*mudar cor*/
+a.nav-link{
+    font-family: 'Fredoka One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background-image: linear-gradient(175.9deg, #6599FF -9.98%, #8FFFA7 130%);   
+     /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;   
+}
+/*continuar a mesma cor quando passar o mouse*/
+a.nav-link:hover{
+    background-image: linear-gradient(175.9deg, #3570e7 -9.98%, #3ae45f 130%);   
+     /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;   
+}
+/*continuar a mesma cor quando clicar*/
+a.nav-link:focus{
+    background-image: linear-gradient(175.9deg, #6599FF -9.98%, #8FFFA7 130%);   
+     /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;     
+}
+/*espaço entre os itens da nav bar*/
+.nav-item {
+    padding: 0 60px;
+}
+/*aumentar o icone da nav bar*/
+i.bi-mortarboard-fill{
+    font-size: 1.3em;
+}
+.dropdown-menu{
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    
+    
 }
 #sobre{
     height: 532px;
@@ -24,3 +92,4 @@
     height: 163px;
     padding-bottom: 0px;
 }
+
