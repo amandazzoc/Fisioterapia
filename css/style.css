@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-#header{
-    height: 559px;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+#home{
+    background: linear-gradient(108.12deg, #9ABCFF 16.13%, #CFF9D8 88.09%);
+   
+}
+#text-home{
+    justify-content: center;
+}
+#titulo-home{
+    font-family: 'Fredoka One';
+    color: white;
+}
+.texto{
+    font-family: 'Fredoka';
+    color: white;
 }
 #nav-bar{
     height: 53px;
