@@ -16,40 +16,27 @@
 <body>
     <div id="wrapper">
         <header>
-            <nav class="navbar navbar-expand-sm fixed-top " id="nav-bar">
-                <div class="container-fluid">
-              
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#home">
-                        <i class="bi bi-house-fill"></i>   
-                        HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre"><i class="bi bi-chat-left-text-fill"></i>  SOBRE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#mt"><i class="bi bi-briefcase-fill"></i> MERCADO DE TRABALHO</a>
-                    </li>  
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faculdade"><i class="bi bi-book-fill"></i> FACULDADE</a>
-                    </li>  
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#pos" role="button" data-bs-toggle="dropdown"><i class="bi bi-mortarboard-fill"></i>  PÓS-GRADUAÇÃO</a>
-                        <ul class="dropdown-menu">
+            <nav>
+                <a class="logo" href="/">Fisioterapia</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                <li><a href="#home"><i class="bi bi-house-door-fill"></i> HOME</a></li>
+                <li><a href="#sobre"><i class="bi bi-chat-left-text-fill"></i> SOBRE</a></li>
+                <li><a  href="#mt"><i class="bi bi-briefcase-fill"></i>  MERCADO</a></li>  
+                <li><a href="#faculdade"><i class="bi bi-book-fill"></i> FACULDADE</a></li>  
+                <li><a  href="#pos" role="button" data-bs-toggle="dropdown"><i class="bi bi-mortarboard-fill"></i>  PÓS-GRADUAÇÃO</a>
+                    <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">BACHARELADO</a></li>
                         <li><a class="dropdown-item" href="#">LATO SENSU</a></li>
                         <li><a class="dropdown-item" href="#">STRITO SENSU</a></li>
-                        </ul>
-                    </li>
-                    </ul>
-                    </div>
-                </div>
+                        </ul></li>
+            </ul>
             </nav>
+            
         </header>
         <main>            
             <div id="home">
@@ -84,5 +71,6 @@
 
         </footer>
     </div>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
