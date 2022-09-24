@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fisioterapia</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!-- CSS only -->
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="wrapper">
         <header>
-            <nav>
+            <nav class="fixed-top">
                 <a class="logo" href="/">Fisioterapia</a>
                 <div class="mobile-menu">
                     <div class="line1"></div>
@@ -29,43 +28,117 @@
                 <li><a  href="#mt"><i class="bi bi-briefcase-fill"></i>  MERCADO</a></li>  
                 <li><a href="#faculdade"><i class="bi bi-book-fill"></i> FACULDADE</a></li>  
                 <li><a  href="#pos" role="button" data-bs-toggle="dropdown"><i class="bi bi-mortarboard-fill"></i>  PÓS-GRADUAÇÃO</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">BACHARELADO</a></li>
-                        <li><a class="dropdown-item" href="#">LATO SENSU</a></li>
-                        <li><a class="dropdown-item" href="#">STRITO SENSU</a></li>
-                        </ul></li>
-            </ul>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">BACHARELADO</a></li>
+                      <li><a class="dropdown-item" href="#">LATO SENSU</a></li>
+                      <li><a class="dropdown-item" href="#">STRITO SENSU</a></li>
+                      </ul></li>
+                  </ul>
             </nav>
             
         </header>
         <main>            
-            <div id="home">
-                <div class="container col-xxl-12 px-4 py-5 bg-transparent text-center" >
-                <div class="row flex-lg-row-reverse align-items-center g-2 py-5" id="itens-home">
-                  <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="imgs/img-home.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="362" height="271" loading="lazy">
-                  </div>
-                  <div class="col-lg-6" id="text-home">
-                    <h1 class="display-5 fw-bold lh-1 mb-3" id="titulo-home">FISIOTERAPIA</h1>
-                    <p class="texto">A Fisioterapia é a área de prevenção e tratamento de problemas ligados à movimentação e funcionamento dos sistemas e órgãos do corpo. Tais distúrbios podem ter origem em doenças, condições genéticas, acidentes, traumas e outros fatores prejudiciais, que trazem consequências para o desempenho ou estética humanas.</p>
+          <div id="home">
+            <div class="container col- col-xxl-12 px-4 py-5 bg-transparent text-center" >
+              <div class="row flex-lg-row-reverse align-items-center g-2 py-5" id="itens-home">
+                <div class="col-11 col-sm-8 col-lg-6">
+                  <img src="imgs/img-home.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="362" height="271" loading="lazy">
+                </div>
+                <div class="col-lg-6" id="text-home">
+                  <h1 class="display-5 fw-bold lh-1 mb-3" id="titulo-home">FISIOTERAPIA</h1>
+                  <p class="texto">A Fisioterapia é a área de prevenção e tratamento de problemas ligados à movimentação e funcionamento dos sistemas e órgãos do corpo. Tais distúrbios podem ter origem em doenças, condições genéticas, acidentes, traumas e outros fatores prejudiciais, que trazem consequências para o desempenho ou estética humanas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+           
+          <div id="sobre">
+            <div class="bg-white pb-5 pt-3 container-fluid">
+              <div class="container col-13 col-sm-10 col-lg-10">
+                <h2 class="text-black display-6 mt-5">Sobre</h2>
+                <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Fisioterapia  no Brasil</h1>
+                <div class="container col-13 col-sm-12 col-lg-11 ">
+                  <p class="text-black textos-center">
+                    A Fisioterapia no Brasil é uma profissão que surgiu no fazer dos massagistas no começo do século XX, foi regulamentada pouco depois da metade daquele século e hoje é ensinada no Brasil em mais de 400 cursos em instituições de ensino superior.
+                    <br><br>
+                    Para a realização do tratamento, o Fisioterapeuta utiliza técnicas de massagens, exercícios na água e tratamentos à base de frio e calor. No entanto, antes de definir como serão realizadas as sessões de Fisioterapia, o profissional deve realizar um diagnóstico fisioterapêutico. Para isso, realiza exames e laudos médicos, além de observar os movimentos do paciente e identificar os possíveis pontos de dor.</p>
+                </div>
+                <div class="container w-75">
+                  <div class="embed">
+                    <iframe src="https://www.youtube.com/embed/pEfrdAtAmqk" ></iframe>
                   </div>
                 </div>
               </div>
             </div>
-            
-           
-            <div id="sobre">
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div id="mt">
+            <div class="bg-white pb-5 pt-3 container-fluid">
+              <div class="container col-13 col-sm-12 col-lg-10">
+                <h2 class="text-end display-6 mt-5 float-right">Mercado de Trabalho</h2>
+                <div class="row m-0 p-0">
                 
-            </div>
-            <div id="mt">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-3">
+                    <img class="img-fluid m-3" src="imgs/Massage therapist-cuate.png">
+                  </div>
+                  <div class="col-20 col-sm-10 col-md-12 col-lg-8">
+                  <h1 class="text-left text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Por que a fisioterapia é uma excelente opção profissional?</h1> 
+                  <div class="container col-13 col-sm-102 col-lg-12 ">
+                    <p class="text-black textos-center">
+                      <i class="bi bi-circle-fill"></i>A formação em Fisioterapia apresenta várias possibilidades de sucesso e oportunidades na vida profissional.
+                    <br><br>
+                    <i class="bi bi-circle-fill"></i>São várias as áreas específicas que um fisioterapeuta pode atuar com grandes possibilidades de crescimento profissional.
+                    <br><br>  
+                    <i class="bi bi-circle-fill"></i>Cursar Fisioterapia descortina um enorme mercado de trabalho para o profissional.
+                    <br><br>  
+                    <i class="bi bi-circle-fill"></i>Diversas oportunidades de trabalho, já que a oferta de emprego aumentou significativamente e a demanda pelos serviços cresce a cada dia.</p>
+                  </div>
+                    
+                  </div> 
+                </div> 
+                  <br><br>
+                <div class="row m-0 p-0">
+                  <div class="col-20 col-sm-12 col-md-12 col-lg-8">
+                    <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Quais as exigências do mercado de trabalho</h1>
+                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                      <p class="text-black textos-center">
+                      O mercado procura por profissionais que possuam conhecimento amplo, saibam um pouquinho de tudo e possam realizar outras funções além daquela para a qual foram contratados. Por isso, invista também em cursos como administração e informática, por exemplo.</p>
+                    </div>
+                    <br>
+                    <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Como anda o mercado de trabalho?</h1>
+                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                      <p class="text-black textos-center">
+                        O mercado de trabalho está estável para os fisioterapeutas, mas novas áreas de atuação estão se abrindo.</p>
+                    </div>
+                    <br>
 
-            </div>
-            <div id="faculdade">
 
+                    <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Quanto posso ganhar?</h1>
+                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                      <p class="text-black textos-center">
+                        FENAFITO estabelece que o salário mínimo para uma jornada de 30 horas semanais seja de R$ 2.750,80.<br>
+                        Mas os salários na fisioterapia podem variar. Segundo dados do CAGED, em 2021, um fisioterapeuta geral pode ter um teto salarial de R$ 5.456,43</p>
+                    </div>  
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-3">
+                      <img class="img-fluid m-3" src="imgs/Medical care-pana.png" >
+                    </div> 
+                </div> 
+              </div>
             </div>
-            <div id="pos">
+          </div>
+          
+          <hr class="featurette-divider">
 
-            </div>
+          <div id="faculdade">
+
+          </div>
+          <div id="pos">
+
+          </div>
         </main>
         <footer class="bg-danger" id="footer">
 
