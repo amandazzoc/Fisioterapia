@@ -7,6 +7,8 @@
     <title>Fisioterapia</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
@@ -56,9 +58,9 @@
           <div id="sobre">
             <div class="bg-white pb-5 pt-3 container-fluid">
               <div class="container col-13 col-sm-10 col-lg-10">
-                <h2 class="text-black display-6 mt-5">Sobre</h2>
+                <h2 class="text-black display-6 mt-5 tituloprincipal" >Sobre</h2>
                 <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Fisioterapia  no Brasil</h1>
-                <div class="container col-13 col-sm-12 col-lg-11 ">
+                <div class="container col-12 col-sm-12 col-lg-11 ">
                   <p class="text-black textos-center">
                     A Fisioterapia no Brasil é uma profissão que surgiu no fazer dos massagistas no começo do século XX, foi regulamentada pouco depois da metade daquele século e hoje é ensinada no Brasil em mais de 400 cursos em instituições de ensino superior.
                     <br><br>
@@ -78,7 +80,7 @@
           <div id="mt">
             <div class="bg-white pb-5 pt-3 container-fluid">
               <div class="container col-13 col-sm-12 col-lg-10">
-                <h2 class="text-end display-6 mt-5 float-right">Mercado de Trabalho</h2>
+                <h2 class="text-end display-6 mt-5 float-right tituloprincipal">Mercado de Trabalho</h2>
                 <div class="row m-0 p-0">
                 
                   <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-3">
@@ -86,7 +88,7 @@
                   </div>
                   <div class="col-20 col-sm-10 col-md-12 col-lg-8">
                   <h1 class="text-left text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Por que a fisioterapia é uma excelente opção profissional?</h1> 
-                  <div class="container col-13 col-sm-102 col-lg-12 ">
+                  <div class="container col-12 col-sm-102 col-lg-12 ">
                     <p class="text-black textos-center">
                       <i class="bi bi-circle-fill"></i>A formação em Fisioterapia apresenta várias possibilidades de sucesso e oportunidades na vida profissional.
                     <br><br>
@@ -103,13 +105,13 @@
                 <div class="row m-0 p-0">
                   <div class="col-20 col-sm-12 col-md-12 col-lg-8">
                     <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Quais as exigências do mercado de trabalho</h1>
-                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                    <div class="container col-12 col-sm-12 col-lg-11 ">
                       <p class="text-black textos-center">
                       O mercado procura por profissionais que possuam conhecimento amplo, saibam um pouquinho de tudo e possam realizar outras funções além daquela para a qual foram contratados. Por isso, invista também em cursos como administração e informática, por exemplo.</p>
                     </div>
                     <br>
                     <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Como anda o mercado de trabalho?</h1>
-                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                    <div class="container col-12 col-sm-12 col-lg-11 ">
                       <p class="text-black textos-center">
                         O mercado de trabalho está estável para os fisioterapeutas, mas novas áreas de atuação estão se abrindo.</p>
                     </div>
@@ -117,7 +119,7 @@
 
 
                     <h1 class="text-black titulos display-6 lh-1 mb-3"><i class="bi bi-caret-right-fill" id="icons"></i>Quanto posso ganhar?</h1>
-                    <div class="container col-13 col-sm-12 col-lg-11 ">
+                    <div class="container col-12 col-sm-12 col-lg-11 ">
                       <p class="text-black textos-center">
                         FENAFITO estabelece que o salário mínimo para uma jornada de 30 horas semanais seja de R$ 2.750,80.<br>
                         Mas os salários na fisioterapia podem variar. Segundo dados do CAGED, em 2021, um fisioterapeuta geral pode ter um teto salarial de R$ 5.456,43</p>
@@ -134,16 +136,311 @@
           <hr class="featurette-divider">
 
           <div id="faculdade">
+            <div class="bg-white pb-5 pt-3 container-fluid">
+              <div class="container col-13 col-sm-12 col-lg-11 ">
+                <h2 class="text-black display-6 mt-5 ">Faculdade</h2>
+                <br>
+                <div class="row row-cols-md-4 g-4 mb-5">
+                  <div class="col">
+                    <div class="card h-100 align-items-center shadow">
+                      <img src="imgs/formacao.png" class="card-img-top" >
+                      <div class="card-body">
+                        <h5 class="card-title mt-4">Tipos de formação</h5>
+                        <p class="card-text mt-4 mb-4 text-center">Bacharelado e Pós-Graduação</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 align-items-center shadow">
+                      <img src="imgs/estagio.png" class="card-img-top" >
+                      <div class="card-body">
+                        <h5 class="card-title mt-4">Estágio obrigatório?</h5>
+                        <p class="card-text mt-4 mb-4 text-center">Sim</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 align-items-center shadow">
+                      <img src="imgs/conhecimento.png" class="card-img-top" >
+                      <div class="card-body">
+                        <h5 class="card-title mt-4">Área de conhecimento</h5>
+                        <p class="card-text mt-4 mb-4 text-center">Ciências da Saúde</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 align-items-center shadow">
+                      <img src="imgs/duracao.png" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title mt-4">Duração</h5>
+                        <p class="card-text mt-4 mb-4 text-center">Em média, 4 anos</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h1 class="text-black titulos display-6 lh-1 mb-3 "><i class="bi bi-caret-right-fill" id="icons"></i>O que se aprende na faculdade?</h1>
+                <div class="container col-13 col-sm-12 col-lg-11 ">
+                  <p class="text-black textos-center">
+                    A base do curso é uma mescla de disciplinas de ciências biológicas e ciências da saúde. Sendo então ministradas aulas de biologia, fisiologia, anatomia, patologia, saúde pública, recursos terapêuticos manuais, ortopedia, traumatologia e neurologia.</p>
+                </div>
+                <h1 class="text-black titulos display-6 lh-1 mb-3 "><i class="bi bi-caret-right-fill" id="icons"></i>Quanto custa?</h1>
+                <div class="container col-13 col-sm-12 col-lg-11 ">
+                  <p class="text-black textos-center">
+                    Com uma duração de 4 a 5 anos, os preços médios da mensalidade de Fisioterapia são de R$ 637,40 por mês, diretamente nas faculdades.
+                  </p>
+                </div>
+                <h1 class="text-black titulos display-6 lh-1 mb-3 "><i class="bi bi-caret-right-fill" id="icons"></i>Melhores faculdades que oferecem o curso</h1>
+                <div class="alert alert-dismissible fade show" role="alert">
+                  <strong><i class="bi bi-exclamation-octagon"></i></strong> Clique em <strong>ver mais</strong> para visitar a página da faculdade
+                  
+                </div>
+                
+                <div class="slide-container swiper">
+                  <div class="slide-content">
+                    <div class="class-wrapper swiper-wrapper">
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
 
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UFMG.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UFMG</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 10 semestres</p>
+                          <h3>R$0,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UFSCAR.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UFSCar</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 8 semestres</p>
+                          <h3>R$0,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UNB.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UNB</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 10 semestres</p>
+                          <h3>R$0,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UNESP.png" alt="" class="card-img"  id="unesp">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UNESP</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 4 anos</p>
+                          <h3>R$0,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UNIP.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UNIP</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial, flex e EAD<br>
+                          <strong>Duração média:</strong> 4 anos</p>
+                          <h3>R$319,20</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UNISA.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UNISA</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 8 semestres</p>
+                          <h3>R$199,01</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/UNOPAR.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>UNOPAR</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial e semipresencial<br>
+                          <strong>Duração média:</strong> 5 anos</p>
+                          <h3>R$299,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                            <img src="imgs/faculdade/USP.png" alt="" class="card-img">
+                          </div>
+                        </div>
+                        <div class="card-content">
+                          <h3><strong>USP</strong></h3>
+                          <p><strong>Modalidade:</strong> Presencial<br>
+                          <strong>Duração média:</strong> 10 semestres</p>
+                          <h3>R$0,00</h3>
+                          <button class="button">Ver Mais</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-button-next swiper-navBtn"></div>
+                  <div class="swiper-button-prev swiper-navBtn"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <h1 class="text-black titulos display-6 lh-1 mb-3 mt-4 "><i class="bi bi-caret-right-fill" id="icons"></i>Grade curricular</h1>
+                <div class="table-responsive">
+                  <table class="table table-striped table-sm">
+                      
+                      <tr align="center">
+                        <td>Aparelho Locomotor</td>
+                        <td>Fisioterapia Demartofuncional</td>
+                        <td>Processos Biológicos</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Aparelho Urogenital</td>
+                        <td>Fisioterapia em Geriatria e Gerontologia</td>
+                        <td>Sistema Cardiorrespiratório</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Atividades Complementares</td>
+                        <td>Fisioterapia Esportiva</td>
+                        <td>Práticas Complementares</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Bioestatística e Epidemiologia</td>
+                        <td>Fisioterapia Musculoesquelética</td>
+                        <td>Práticas em Fisioterapia - 1</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Biomecanica e Cinesiologia</td>
+                        <td>Fisioterapia Neurológica</td>
+                        <td>Práticas em Fisioterapia - 2</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Desenvolvimento Humano e Social</td>
+                        <td>Fisioterapia Pediátrica</td>
+                        <td>Práticas em Fisioterapia - 3</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Educação e Comunicacão em Saúde</td>
+                        <td>Gestão em Serviços de Saúde</td>
+                        <td>Recursos Biohidricos</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Ergonomia e Fisioterapia do Trabalho</td>
+                        <td>Fisioterapia Urogenital</td>
+                        <td>Recursos Terapêuticos</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Estagio Supervisionado - 1</td>
+                        <td>Gestão de Clínicas e Consultórios</td>
+                        <td>Saúde Coletiva</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Estilo de Vida, Saúde e Meio Ambiente</td>
+                        <td>Fisioterapia Respiratória e Cardiovascular</td>
+                        <td>Programa de Integracão Saúde Comunidade</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Estrutura e Função Humana</td>
+                        <td>Interação Clínico-patológica</td>
+                        <td>Sistema Nervoso</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Estágio Supervisionado - 2</td>
+                        <td>Interação Clínico-patológica</td>
+                        <td>Terapêutica Medicamentosa</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Estágio Supervisionado - 3</td>
+                        <td>Metodologia Científica</td>
+                        <td>Trabalho de Conclusão de Curso</td>
+                      </tr>
+                      <tr align="center">
+                        
+                        <td>Fisiologia do Exercício</td>
+                        <td>Optativa</td>
+                        <td>Ética e Profissionalismo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="pos">
 
+          <hr class="featurette-divider">
+
+          <div id="pos">
+            
           </div>
         </main>
         <footer class="bg-danger" id="footer">
 
         </footer>
     </div>
-    <script src="mobile-navbar.js"></script>
+    <script src="js/mobile-navbar.js"></script>
+    <!--Swiper JS-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
