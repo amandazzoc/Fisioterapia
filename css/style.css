@@ -311,6 +311,11 @@ a.dropdown-item:hover{
 .sublinhado{
     text-decoration: none;
 }
+.card-img-top{
+    border-radius: 0px 50px;
+}
+
+
 #footer{
     height: 163px;
     padding-bottom: 0px;
