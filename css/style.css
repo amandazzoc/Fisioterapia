@@ -199,7 +199,11 @@ a.dropdown-item:hover{
     background-color: #e5fae6;
     font-family: 'Fredoka';
 }
-
+#pos .alert
+{
+    background-color: #e5fae6;
+    font-family: 'Fredoka';
+}
 .slide-container{
     max-width: 1300px;
     width: 100%;
@@ -304,9 +308,8 @@ a.dropdown-item:hover{
 .swipper-pagination-bullet-active{
     background-color:#cdd6f0;
 }
-#pos{
-    height: 2477px;
-    background-color: rgb(133, 96, 47);
+.sublinhado{
+    text-decoration: none;
 }
 #footer{
     height: 163px;
