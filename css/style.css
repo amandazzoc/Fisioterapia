@@ -181,11 +181,11 @@ a.dropdown-item:hover{
     color: #6486db;
 }
 
-#sobre{
+#curso{
     
     background-color: #3570e7;
 }
-#sobre h2{
+#curso h2{
     font-family: 'Fredoka One';
     text-decoration: underline #B7FABA;
 }
@@ -197,6 +197,7 @@ a.dropdown-item:hover{
     font-family: 'Fredoka One';
     text-decoration: underline #B7FABA;
 }
+
 #pos h2{
     font-family: 'Fredoka One';
     text-decoration: underline #B7FABA;
@@ -221,7 +222,7 @@ a.dropdown-item:hover{
     background-color: #e5fae6;
     font-family: 'Fredoka';
 }
-#pos .alert
+#especializacoes .alert
 {
     background-color: #e5fae6;
     font-family: 'Fredoka';
